@@ -19,7 +19,7 @@ public class Client {
         PasajeSolidario solidario2 = (PasajeSolidario) FactoryPasaje.createPasaje(new Pasajero("Simon Riley", "85470"), "B01", solidario);
 
         PasajeInfantil infantil1 = (PasajeInfantil) FactoryPasaje.createPasaje(new Pasajero("Rick Grimes", "3011116"), "R6", infantil);
-        PasajeInfantil infantil2 = (PasajeInfantil) FactoryPasaje.createPasaje(new Pasajero("Rick Grimes", "3011116"), "R6", infantil);
+        PasajeInfantil infantil2 = (PasajeInfantil) FactoryPasaje.createPasaje(new Pasajero("Daryl Dixon", "1010912"), "B1", infantil);
 
         estandar1.showInfo();
         estandar2.showInfo();
