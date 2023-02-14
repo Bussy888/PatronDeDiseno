@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/ConcreteProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/ConcreteProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/ConcreteProductC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/template/IProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/CasaDeCambio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/EmpresaDeCambio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/LibreCambista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/practice1/enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Avion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/FactoryPasaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/IPasaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Lugar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeEstandar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeInfantil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeSolidario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Pasajero.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.singleton.practice1.Client">
+  <component name="RunManager" selected="Application.abstractFactory.practica.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="prototype.practica.Client" />
       <module name="PatronDeDiseno.main" />
@@ -85,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientPractica" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.practica.ClientPractica" />
+    <configuration name="abstractFactory.practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractFactory.practica.Client" />
       <module name="PatronDeDiseno.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.practica.*" />
+          <option name="PATTERN" value="abstractFactory.practica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.abstractFactory.practica.Client" />
         <item itemvalue="Application.singleton.practice1.Client" />
         <item itemvalue="Application.ClientExample" />
         <item itemvalue="Application.factoryMethod.practica.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ClientPractica" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676155775239</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Practica Singleton 2">
+      <created>1676337431549</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676337431549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +193,7 @@
     <MESSAGE value="Third Commit" />
     <MESSAGE value="Practica Prototype" />
     <MESSAGE value="Practica FactoryMethod" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica FactoryMethod" />
+    <MESSAGE value="Practica Singleton 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Singleton 2" />
   </component>
 </project>
