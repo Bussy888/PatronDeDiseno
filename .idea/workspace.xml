@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Avion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/FactoryPasaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/IPasaje.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Lugar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeEstandar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeInfantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/PasajeSolidario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstractFactory/practica/Pasajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/Armado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/Computadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/I5baja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/I7media.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Builder/practice/I9alta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +52,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.abstractFactory.practica.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="prototype.practica.Client" />
+  <component name="RunManager" selected="Application.Builder.practice.Client">
+    <configuration name="Builder.practice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Builder.practice.Client" />
       <module name="PatronDeDiseno.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="prototype.practica.*" />
+          <option name="PATTERN" value="Builder.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Builder.practice.Client" />
         <item itemvalue="Application.abstractFactory.practica.Client" />
         <item itemvalue="Application.singleton.practice1.Client" />
         <item itemvalue="Application.ClientExample" />
         <item itemvalue="Application.factoryMethod.practica.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +172,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676337431549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Practica Abstract Factory">
+      <created>1676379609077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676379609077</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Practica Abstract Factory">
+      <created>1676379672255</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676379672255</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +206,7 @@
     <MESSAGE value="Practica Prototype" />
     <MESSAGE value="Practica FactoryMethod" />
     <MESSAGE value="Practica Singleton 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Singleton 2" />
+    <MESSAGE value="Practica Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Abstract Factory" />
   </component>
 </project>
