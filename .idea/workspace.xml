@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/Backup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/Backups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/memento/practica/_enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/ClientSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/DEV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Fallas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/IHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/PO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/QA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Soporte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/_enunciado" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +54,26 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.memento.practica.Client">
+  <component name="RunManager" selected="Application.ChainOfResponsability.Practica.Client">
     <configuration name="Builder.practice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.practice.Client" />
       <module name="PatronDeDiseno.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Builder.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChainOfResponsability.Practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChainOfResponsability.Practica.Client" />
+      <module name="PatronDeDiseno.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChainOfResponsability.Practica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singleton.practice1.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.practice1.Client" />
-      <module name="PatronDeDiseno.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.practice1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChainOfResponsability.Practica.Client" />
         <item itemvalue="Application.memento.practica.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Builder.practice.Client" />
         <item itemvalue="Application.abstractFactory.practica.Client" />
-        <item itemvalue="Application.singleton.practice1.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677458012115</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Practica Memento">
+      <created>1677608612258</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677608612258</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,6 +232,7 @@
     <MESSAGE value="Practica Abstract Factory" />
     <MESSAGE value="Practica Builder" />
     <MESSAGE value="Practica Mediator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Mediator" />
+    <MESSAGE value="Practica Memento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Memento" />
   </component>
 </project>
