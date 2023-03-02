@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/ClientSupport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/DEV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Fallas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/IHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/PO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/QA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/Soporte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ChainOfResponsability/Practica/_enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/CCover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/CHeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/CHit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/CJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/CRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/Nivel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/practice/Personaje.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ChainOfResponsability.Practica.Client">
+  <component name="RunManager" selected="Application.command.practice.Client">
     <configuration name="Builder.practice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Builder.practice.Client" />
       <module name="PatronDeDiseno.main" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="abstractFactory.practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstractFactory.practica.Client" />
+    <configuration name="command.practice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="command.practice.Client" />
       <module name="PatronDeDiseno.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstractFactory.practica.*" />
+          <option name="PATTERN" value="command.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.command.practice.Client" />
         <item itemvalue="Application.ChainOfResponsability.Practica.Client" />
         <item itemvalue="Application.memento.practica.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Builder.practice.Client" />
-        <item itemvalue="Application.abstractFactory.practica.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677608612258</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Practica Cadena de Responsabilidad">
+      <created>1677635696180</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635696180</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +240,7 @@
     <MESSAGE value="Practica Builder" />
     <MESSAGE value="Practica Mediator" />
     <MESSAGE value="Practica Memento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Memento" />
+    <MESSAGE value="Practica Cadena de Responsabilidad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Cadena de Responsabilidad" />
   </component>
 </project>
