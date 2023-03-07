@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/CPU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/IState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/Off.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/On.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/PC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/RAM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/State/practica/Restart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Bolivia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/EEUU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Europa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/IPais.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/IViajero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Turista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/_enunciado" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,20 +54,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="ChainOfResponsability.Practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ChainOfResponsability.Practica.Client" />
-      <module name="PatronDeDiseno.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ChainOfResponsability.Practica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.visitor.practica.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.practica.Client" />
       <module name="PatronDeDiseno.main" />
@@ -120,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="visitor.practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="visitor.practica.Client" />
+      <module name="PatronDeDiseno.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="visitor.practica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.visitor.practica.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Observer.practica.Client" />
         <item itemvalue="Application.Observer.template.Client" />
         <item itemvalue="Application.command.practice.Client" />
-        <item itemvalue="Application.ChainOfResponsability.Practica.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677810956470</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Practica State">
+      <created>1678031663045</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1678031663045</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -257,6 +264,7 @@
     <MESSAGE value="Practica Cadena de Responsabilidad" />
     <MESSAGE value="Practica Command" />
     <MESSAGE value="Practica Observer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Observer" />
+    <MESSAGE value="Practica State" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica State" />
   </component>
 </project>
