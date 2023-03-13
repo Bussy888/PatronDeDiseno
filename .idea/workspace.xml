@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Bolivia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/EEUU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Europa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/IPais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/IViajero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/Turista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visitor/practica/_enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/AppEscritorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/AppWeb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/IEmpresa1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/IEmpresa2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Ios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Union.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/WindowsPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/_enunciado" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/Practica/Currency.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +33,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -237,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678031663045</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Practica Visitor">
+      <created>1678206324738</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678206324738</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +276,7 @@
     <MESSAGE value="Practica Command" />
     <MESSAGE value="Practica Observer" />
     <MESSAGE value="Practica State" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica State" />
+    <MESSAGE value="Practica Visitor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Visitor" />
   </component>
 </project>
