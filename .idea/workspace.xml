@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/AppEscritorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/AppWeb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/IEmpresa1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/IEmpresa2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Ios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/Union.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/WindowsPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Adapter/Practica/_enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Proxy/Practica/Currency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/IArch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/IPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Linux.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Windows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/X64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/X86.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,6 +54,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enchu\IdeaProjects\PatronDeDiseno\src\main\java" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.visitor.practica.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.practica.Client" />
@@ -248,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678206324738</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Practica Adapter y Proxy">
+      <created>1678675872836</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678675872836</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +285,7 @@
     <MESSAGE value="Practica Observer" />
     <MESSAGE value="Practica State" />
     <MESSAGE value="Practica Visitor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Visitor" />
+    <MESSAGE value="Practica Adapter y Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practica Adapter y Proxy" />
   </component>
 </project>
