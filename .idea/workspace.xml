@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="384a7e28-6f40-46f6-8c3f-796e781e2d0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/IArch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/IPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Linux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/Windows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/X64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Bridge/ejercicio/WithBridge/X86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Practica/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Practica/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Composite/Practica/PCHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/IVehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/Minibus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/UpgradeGPS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/UpgradeGas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/UpgradeTurbo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Decorator/Practica/Vagoneta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +65,7 @@
       <recent name="C:\Users\enchu\IdeaProjects\PatronDeDiseno\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.visitor.practica.Client">
+  <component name="RunManager" selected="Application.Decorator.Practica.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="State.practica.Client" />
       <module name="PatronDeDiseno.main" />
@@ -73,38 +79,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Composite.Practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Composite.Practica.Client" />
+      <module name="PatronDeDiseno.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Composite.Practica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.Practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Practica.Client" />
+      <module name="PatronDeDiseno.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.Practica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Observer.practica.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Observer.practica.Client" />
       <module name="PatronDeDiseno.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Observer.practica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Observer.template.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Observer.template.Client" />
-      <module name="PatronDeDiseno.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Observer.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="command.practice.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="command.practice.Client" />
-      <module name="PatronDeDiseno.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="command.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator.Practica.Client" />
+        <item itemvalue="Application.Composite.Practica.Client" />
         <item itemvalue="Application.visitor.practica.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Observer.practica.Client" />
-        <item itemvalue="Application.Observer.template.Client" />
-        <item itemvalue="Application.command.practice.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678675872836</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ejercicio Bridge">
+      <created>1678934560456</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678934560456</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +299,7 @@
     <MESSAGE value="Practica State" />
     <MESSAGE value="Practica Visitor" />
     <MESSAGE value="Practica Adapter y Proxy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practica Adapter y Proxy" />
+    <MESSAGE value="Ejercicio Bridge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio Bridge" />
   </component>
 </project>
